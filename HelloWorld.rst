@@ -45,7 +45,7 @@ See on üherealine kommentaar, mida kompilaator ignoreerib.
 	
 See on ainuke "main" meetodis sisalduv rida (5. real on "main" meetodi plokki lõpetav } märk). See rida kuvab ekraanile programmeerija poolt määratud teksti. Mida täpsemalt see System.out.println teeb, räägitakse hiljem. Esialgu piisab teadmisest, et selliselt saab teksti ekraanile trükkida: :code:`System.out.println("Mingi tekst");`. Lisaks sellele meetodile on olemas ka :code:`System.out.print("Ilma ln-ta print");`. Nende kahe meetodi vahe on, et esimene prindib välja teksti ja lisab lõppu reavahetuse (kursor liigub järgmisele reale, järgmine väljatrükk läheb järgmisele reale). Teine meetod prindib teksti, aga reavahetust ei lisa (kursor jääb prinditud teksti lõppu; järgmine väljatrükk läheb otse prinditud teksti järgi).
 
-5.rea loogeiline sulg } lõpetab "main" meetodi. Kui "main" meetodis tahetakse veel midagi teha, tuleb see kood lisada enne lõpetavat loogelist sulgu. Kogu kood, mis on "main" meetodis { ja } vahel, läheb käivitamisele.
+5.rea loogeline sulg } lõpetab "main" meetodi. Kui "main" meetodis tahetakse veel midagi teha, tuleb see kood lisada enne lõpetavat loogelist sulgu. Kogu kood, mis on "main" meetodis { ja } vahel, läheb käivitamisele.
 
 6.rea loogeline sulg } lõpetab klassi.
 
