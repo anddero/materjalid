@@ -39,7 +39,7 @@ Näide
         }
         
         // The argument given to the method is a list-type variable.
-        private List<String> addToList(List<String> list, String element) {
+        private static List<String> addToList(List<String> list, String element) {
             list.add(element);
             System.out.println("In 'addToList' method: " + list);
             return list;
