@@ -24,7 +24,7 @@ Sõnede võrdlus kahes keeles.
 |     s = str("tere")                         |                                                  |
 |                                             | .. code-block:: java                             |
 | Kõik annavad sama tulemuse.                 |                                                  |
-|                                             |     String s3 = "tere\bsiin\non\reavahetused";   |
+|                                             |     String s3 = "tere\nsiin\non\nreavahetused";  |
 | Kolme jutumärgiga eraldatud sõne |br|       |                                                  |
 | korral saab sõnes kasutada ka reavahetusi.  |                                                  |
 |                                             |                                                  |
@@ -60,7 +60,7 @@ Sõnede võrdlus kahes keeles.
 |                                             | .. code-block:: java                             |
 | .. code-block:: python                      |                                                  |
 |                                             |     String s = "teretulemast";                   |
-|     s = "teretulemast"                      |     s.substring(s.length());                     |
+|     s = "teretulemast"                      |     s.length();                                  |
 |     len(s) # 12                             |                                                  |
 +---------------------------------------------+--------------------------------------------------+
 | .. code-block:: python                      |                                                  |
