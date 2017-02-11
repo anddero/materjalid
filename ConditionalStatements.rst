@@ -191,7 +191,7 @@ Näide:
    int a = 5;
    int b = 3;
    
-   System.out.println("Bigger value is: " + (a > b) ? a : b); // Prints "Bigger value is: 5" to the console
+   System.out.println("Bigger value is: " + (a > b ? a : b)); // Prints "Bigger value is: 5" to the console
 
 Mis on samaväärne sellega:
 
